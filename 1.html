@@ -2,61 +2,60 @@
 <html lang="en">
   <head>
     <title>My first web page</title>
-    <style>
-      img {
-        width: 100px;
-        border-radius: 50px;
-        float: left;
-        margin-right: 10px;
-      }
-      .username {
-        font-weight: bold;
-      }
-
-      .change {
-        cursor: pointer;
-        border: 1px solid #555;
-        border-radius: 40%;
-        width: 20px;
-        text-align: center;
-        padding: 5px;
-        margin-left: 8px;
-      }
-    </style>
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
 
   <body>
-    <a target="_blank" href="https://www.youtube.com/watch?v=FwwAt2-r8-Q">
-      <img
-        src="images\d3219c6ffdce8424d24afae30de28257.jpg"
-        alt="MingyuWonwoo"
-      />
-    </a>
+    <table>
+      <tr>
+        <td>Poza</td>
+        <td>Nume</td>
+        <td>Trupa</td>
+      </tr>
+      <tr>
+        <td>Poza aici</td>
+        <td>Mingyu</td>
+        <td>Seventeen</td>
+      </tr>
+    </table>
+
+    <img src="" alt="" />
 
     <button onclick="Gray()">Gray mode</button>
-    <a href="index.html"><button>Mergi la index</button> </a>
-    <a target="_blank" href="https://www.youtube.com/watch?v=gvdACvfuGFA">
-      <img
-        src="images/tumblr_97a3eaa10ef8d389b9338c04a0b65c11_d95c4bbe_500.jpg"
-        alt="an image of Mingyu"
-      />
-    </a>
+    <div id="container">
+      <a target="_blank" href="https://www.youtube.com/watch?v=FwwAt2-r8-Q">
+        <img
+          id="poza"
+          src="images\d3219c6ffdce8424d24afae30de28257.jpg"
+          alt="MingyuWonwoo"
+        />
+      </a>
 
-    <p class="username">@blabla</p>
-    <p>
-      This is a <br />
-      paragraph
-    </p>
-    <p>Teach you shit</p>
-    <iframe
-      width="900"
-      height="450"
-      src="https://www.youtube.com/embed/gvdACvfuGFA?autoplay=0"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+      <a href="index.html"><button>Mergi la index</button> </a>
+      <a target="_blank" href="https://www.youtube.com/watch?v=gvdACvfuGFA">
+        <img
+          id="mingyu"
+          src="images/tumblr_97a3eaa10ef8d389b9338c04a0b65c11_d95c4bbe_500.jpg"
+          alt="an image of Mingyu"
+        />
+      </a>
+
+      <p class="username">@blabla</p>
+      <p>
+        This is a <br />
+        paragraph
+      </p>
+      <p>Teach you shit</p>
+      <iframe
+        width="900"
+        height="450"
+        src="https://www.youtube.com/embed/gvdACvfuGFA?autoplay=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
     <script>
       let white = true;
       function Gray() {

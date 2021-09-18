@@ -1,0 +1,67 @@
+img {
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+  /* margin-right: 10px; */
+}
+.username {
+  font-weight: bold;
+  font-size: 2em;
+}
+.username:hover {
+  color: pink;
+  background: cyan;
+  transition: all 0.3s;
+}
+.username:active {
+  background: red;
+  color: green;
+}
+
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+body {
+  font-size: 20px;
+  height: 1500px;
+}
+#container button {
+  background: green;
+}
+button {
+  color: red;
+}
+/* #mingyu:hover {
+  transform: scale(2);
+  transform: rotate(270deg);
+  transform: translate(100%);
+} */
+#mingyu {
+  transition: bottom 0.3s;
+  /* transform: rotate(-90deg); */
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+#mingyu:hover {
+  bottom: 20px;
+}
+
+table,
+td {
+  border: 3px solid green;
+  border-collapse: collapse;
+  background-color: gray;
+  color: greenyellow;
+  padding: 5px;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+}
